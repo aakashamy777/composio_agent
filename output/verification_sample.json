@@ -1,0 +1,243 @@
+[
+  {
+    "id": 82,
+    "name": "Plaid",
+    "hint": "plaid.com/docs",
+    "category_given": "Finance and Fintech",
+    "source": "gemini_research_retry",
+    "category": "Financial data connectivity and payment initiation APIs for banking, lending, and personal finance applications.",
+    "auth_methods": [
+      "API Key (client_id and secret)",
+      "OAuth2 (for specific flows and partners)",
+      "public_token/access_token exchange"
+    ],
+    "self_serve_or_gated": "self-serve (free/trial signup) - Developers can create a free account on the Plaid Dashboard to obtain API keys and access a Sandbox environment. A 'Limited Production service' allows up to 200 API calls with live data for free trials, and Free Trial plans are available for new US/Canada teams. Production access is requested via the Dashboard, with pricing based on usage and product, often negotiated for higher volumes.",
+    "api_surface": "REST (JSON over HTTP), broad. Covers Auth, Balance, Identity, Transactions, Investments, Liabilities, Income, Payments, and more. An OpenAPI definition file is available. A 'Local MCP server' is provided for building and testing, including features for AI coding assistants.",
+    "buildability_verdict": "yes - Plaid offers a comprehensive REST API, client libraries, an OpenAPI specification, and a CLI designed for AI agents. The 'Local MCP server' explicitly supports AI coding assistants with features like documentation search and test data generation. The primary consideration for an AI agent toolkit would be managing user consent via Plaid Link for accessing sensitive financial data.",
+    "evidence": "https://plaid.com/docs/api/overview/, https://plaid.com/docs/quickstart/, https://plaid.com/docs/api/authentication/, https://plaid.com/docs/api/oauth/, https://plaid.com/docs/resources/, https://plaid.com/pricing/, https://plaid.com/docs/account/pricing/, https://plaid.com/products/"
+  },
+  {
+    "id": 15,
+    "name": "Pylon",
+    "hint": "usepylon.com",
+    "category_given": "Support and Helpdesk",
+    "category": "AI-native B2B customer support and operations platform with AI agents.",
+    "auth_methods": [
+      "API key (Bearer Token)"
+    ],
+    "self_serve_or_gated": "gated (requires a Pylon account, likely a paid plan after a trial, and API access is managed through team settings).",
+    "api_surface": "REST API, broad, covering accounts, contacts, issues, messages, knowledge base, tags, and custom fields. No existing GraphQL or MCP server mentioned.",
+    "buildability_verdict": "yes",
+    "evidence": "https://docs.usepylon.com/",
+    "source": "gemini_research"
+  },
+  {
+    "id": 4,
+    "name": "Attio",
+    "hint": "attio.com",
+    "category_given": "CRM and Sales",
+    "source": "composio_registry",
+    "category": "CRM",
+    "description": "Attio is a fully customizable workspace for your team's relationships and workflows.",
+    "auth_methods": [
+      "OAUTH2"
+    ],
+    "self_serve_or_gated": "self-serve (composio-managed OAuth/API key)",
+    "api_surface": "99.0 tools available via Composio",
+    "buildability_verdict": "Buildable today - already in Composio's toolkit registry",
+    "evidence": "https://attio.com"
+  },
+  {
+    "id": 95,
+    "name": "Reducto",
+    "hint": "reducto.ai",
+    "category_given": "AI, Research and Media-native",
+    "source": "gemini_research_retry",
+    "category": "An agentic document platform for AI teams that provides a complete toolkit for classification, parsing, extraction, splitting, editing, and workflow orchestration across documents, turning complex documents into LLM-ready inputs.",
+    "auth_methods": [
+      "API key (Bearer token)"
+    ],
+    "self_serve_or_gated": "Self-serve, with a free account signup at studio.reducto.ai to create API keys and a flexible pricing structure for startups and innovators.",
+    "api_surface": "REST API (https://platform.reducto.ai) with a broad surface covering document parsing, classification, extraction, splitting, editing, and workflow orchestration, supporting 30+ file types. It also offers an MCP server for agent tool calling.",
+    "buildability_verdict": "yes, Reducto is explicitly designed as an agentic document platform with a complete toolkit for coding agents, offering SDKs (Python, Node.js, Go), a CLI, and direct REST API access, including an MCP server for AI agent workflows.",
+    "evidence": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZsnknYCSUWD3N5heyyCtRDfFp8wl1fNHK8XcsVlzcX05TUC3ORuG5tYcW_V5xpHJ2xtVl-llqK_KniBcn8MuKWfa9S9b4OzARQ9XylmAkhhnP8CzUfPPWFdHRRJE, https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGokUBLtLEruV_OagOY7FElerpIZrPvmS12wAtoP0LDJCI38TPD0L8tpM_G1MeLYi1P8ipjlKfOhZ7x3ctGqcigaSuyKIQeP_g4x6FtG74RxMSZKBqB4KoqFPFz1A"
+  },
+  {
+    "id": 36,
+    "name": "Klaviyo",
+    "hint": "developers.klaviyo.com",
+    "category_given": "Marketing, Ads, Email and Social",
+    "source": "composio_registry",
+    "category": "Marketing Automation",
+    "description": "Klaviyo is a data-driven email and SMS marketing platform that allows e-commerce brands to deliver targeted messages, track conversions, and scale customer relationships",
+    "auth_methods": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "self_serve_or_gated": "unknown - check docs",
+    "api_surface": "225.0 tools available via Composio",
+    "buildability_verdict": "Buildable today - already in Composio's toolkit registry",
+    "evidence": "https://www.klaviyo.com/"
+  },
+  {
+    "id": 32,
+    "name": "Meta Ads",
+    "hint": "developers.facebook.com/docs/marketing-apis",
+    "category_given": "Marketing, Ads, Email and Social",
+    "source": "composio_registry",
+    "category": "Ads & Conversion",
+    "description": "Create, edit and get insights from ads across Meta technologies, including Facebook, Instagram, Messenger, WhatsApp and more.",
+    "auth_methods": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "self_serve_or_gated": "unknown - check docs",
+    "api_surface": "50.0 tools available via Composio",
+    "buildability_verdict": "Buildable today - already in Composio's toolkit registry",
+    "evidence": "https://business.meta.com/"
+  },
+  {
+    "id": 29,
+    "name": "Aircall",
+    "hint": "aircall.io",
+    "category_given": "Communications and Messaging",
+    "category": "Cloud-based phone system and call center platform for sales, support, and customer relationship teams, offering call management, team collaboration, analytics, and AI-powered call insights.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "Basic Authentication (API ID and API Token)"
+    ],
+    "self_serve_or_gated": "Self-serve for existing Aircall customers who can generate API keys from their dashboard. For technology partners building apps for the Aircall App Marketplace, there is a signup process to obtain OAuth client_id and client_secret.",
+    "api_surface": "REST API with endpoints to retrieve and manage Aircall data (calls, contacts, users, numbers, teams). Supports Webhooks for real-time event notifications (e.g., call created, contact added). No mention of GraphQL or an existing MCP server.",
+    "buildability_verdict": "yes, the Aircall API and Webhooks provide a robust foundation for building an AI agent toolkit today. It allows for monitoring call activity, performing in-call actions, and triggering workflows based on call events. Existing integrations with AI tools via platforms like Zapier further demonstrate its potential.",
+    "evidence": "https://developer.aircall.io/",
+    "source": "gemini_research"
+  },
+  {
+    "id": 18,
+    "name": "Help Scout",
+    "hint": "helpscout.com",
+    "category_given": "Support and Helpdesk",
+    "source": "composio_registry",
+    "category": "Customer Support",
+    "description": "Help Scout provides customer support software with shared inbox, knowledge base, and customer management tools",
+    "auth_methods": [
+      "OAUTH2"
+    ],
+    "self_serve_or_gated": "unknown - check docs",
+    "api_surface": "129.0 tools available via Composio",
+    "buildability_verdict": "Buildable today - already in Composio's toolkit registry",
+    "evidence": "https://www.helpscout.com"
+  },
+  {
+    "id": 14,
+    "name": "Front",
+    "hint": "front.com",
+    "category_given": "Support and Helpdesk",
+    "source": "composio_registry",
+    "category": "CRM",
+    "description": "Front is a shared inbox and collaboration platform that centralizes customer communications from multiple channels, enabling teams to manage emails, chats, and more",
+    "auth_methods": [
+      "API_KEY"
+    ],
+    "self_serve_or_gated": "unknown - check docs",
+    "api_surface": "0.0 tools available via Composio",
+    "buildability_verdict": "Buildable today - already in Composio's toolkit registry",
+    "evidence": "https://frontapp.com"
+  },
+  {
+    "id": 87,
+    "name": "Xero",
+    "hint": "developer.xero.com",
+    "category_given": "Finance and Fintech",
+    "source": "composio_registry",
+    "category": "Accounting",
+    "description": "Xero is a cloud-based accounting software for small businesses, providing invoicing, bank reconciliation, bookkeeping, and financial reporting in real time",
+    "auth_methods": [
+      "OAUTH2"
+    ],
+    "self_serve_or_gated": "unknown - check docs",
+    "api_surface": "53.0 tools available via Composio",
+    "buildability_verdict": "Buildable today - already in Composio's toolkit registry",
+    "evidence": "https://www.xero.com/"
+  },
+  {
+    "id": 70,
+    "name": "Sentry",
+    "hint": "docs.sentry.io/api",
+    "category_given": "Developer, Infra and Data platforms",
+    "source": "composio_registry",
+    "category": "Developer Tools",
+    "description": "Integrate Sentry to manage your error tracking and monitoring.",
+    "auth_methods": [
+      "OAUTH2"
+    ],
+    "self_serve_or_gated": "self-serve (composio-managed OAuth/API key)",
+    "api_surface": "209.0 tools available via Composio",
+    "buildability_verdict": "Buildable today - already in Composio's toolkit registry",
+    "evidence": "https://sentry.io/welcome/"
+  },
+  {
+    "id": 12,
+    "name": "Intercom",
+    "hint": "intercom.com",
+    "category_given": "Support and Helpdesk",
+    "source": "composio_registry",
+    "category": "Customer Support",
+    "description": "Intercom provides live chat, messaging, and customer engagement tools, enabling businesses to drive conversions, handle support, and personalize communication at scale",
+    "auth_methods": [
+      "OAUTH2"
+    ],
+    "self_serve_or_gated": "self-serve (composio-managed OAuth/API key)",
+    "api_surface": "133.0 tools available via Composio",
+    "buildability_verdict": "Buildable today - already in Composio's toolkit registry",
+    "evidence": "https://www.intercom.com"
+  },
+  {
+    "id": 76,
+    "name": "Monday.com",
+    "hint": "developer.monday.com",
+    "category_given": "Productivity and Project Management",
+    "source": "gemini_research_retry",
+    "category": "Work operating system for project management, workflow automation, and data organization, with a platform for building custom applications and integrations.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "API Token (Personal V2 API tokens, short-lived API tokens)"
+    ],
+    "self_serve_or_gated": "Self-serve (free developer account available, free plan for core product with limitations, paid plans for advanced features and higher API limits). Enterprise plans and larger teams require contacting sales.",
+    "api_surface": "GraphQL API, broad coverage for querying and mutating boards, items, columns, users, groups, leads, docs, updates, and more. Supports building native features, integrations, and AI skills. Mentions connecting IDEs to MCPs (Monday.com Cloud Platform/Servers).",
+    "buildability_verdict": "yes, the platform explicitly supports building 'AI agents' and 'AI skills' and offers an 'AI work platform' with 'AI credits' and an 'AI Sidekick'.",
+    "evidence": "https://developer.monday.com/api-and-sdks/docs"
+  },
+  {
+    "id": 55,
+    "name": "Apify",
+    "hint": "docs.apify.com",
+    "category_given": "Data, SEO and Scraping",
+    "source": "composio_registry",
+    "category": "AI Web Scraping",
+    "description": "Apify is a platform for building, deploying, and managing web scraping and automation tools, known as Actors.",
+    "auth_methods": [
+      "API_KEY"
+    ],
+    "self_serve_or_gated": "unknown - check docs",
+    "api_surface": "112.0 tools available via Composio",
+    "buildability_verdict": "Buildable today - already in Composio's toolkit registry",
+    "evidence": "https://apify.com/"
+  },
+  {
+    "id": 5,
+    "name": "Twenty",
+    "hint": "twenty.com",
+    "category_given": "CRM and Sales",
+    "category": "Open-source customer relationship management (CRM) platform with built-in AI capabilities, including AI agents.",
+    "auth_methods": [
+      "API Key",
+      "OAuth"
+    ],
+    "self_serve_or_gated": "self-serve (free/trial signup for cloud platform, or self-host your own instance)",
+    "api_surface": "REST and GraphQL APIs for CRUD operations on records (Core API) and schema management (Metadata API). The API is schema-per-tenant, dynamically generated based on custom objects and fields. Webhooks are also supported. No existing MCP server is mentioned.",
+    "buildability_verdict": "yes, Twenty explicitly supports building AI agents. It allows creating custom agents, giving them access to CRM data, configuring their behavior, and executing them in workflows. Developers can extend Twenty with custom objects, server-side logic, UI components, and AI agents as TypeScript packages using the twenty-sdk.",
+    "evidence": "https://twenty.com/docs",
+    "source": "gemini_research"
+  }
+]
