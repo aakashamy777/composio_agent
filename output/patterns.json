@@ -1,0 +1,154 @@
+{
+  "total_apps": 100,
+  "source_breakdown": {
+    "composio_registry": 56,
+    "gemini_research": 21,
+    "gemini_research_retry": 21,
+    "manual_research": 2
+  },
+  "auth_method_distribution": {
+    "OAuth2": 53,
+    "API Key": 44,
+    "S2S_OAuth2": 5,
+    "API Key (BEARER TOKEN)": 4,
+    "OAUTH 2.0": 2,
+    "OAUTH 1.0A": 2,
+    "BEARER TOKEN": 2,
+    "OAUTH": 1,
+    "OAuth2 (SERVER-SIDE, CLIENT-SIDE, USERNAME & PASSWORD, APP AUTHENTICATION FLOWS)": 1,
+    "API Key (CLIENT ID AND CLIENT SECRET)": 1,
+    "AUTHORIZATION TOKEN": 1,
+    "USERNAME AND PASSWORD": 1,
+    "BASIC AUTHENTICATION (TOKEN-BASED)": 1,
+    "JWT (FOR CHAT SDK)": 1,
+    "API Key (STANDARD, MAIN, RESTRICTED)": 1,
+    "ACCOUNT SID AND AUTH TOKEN (FOR LOCAL TESTING)": 1,
+    "HTTP BASIC AUTHENTICATION": 1,
+    "ACCESS TOKENS (TENANT_ACCESS_TOKEN, APP_ACCESS_TOKEN, USER_ACCESS_TOKEN)": 1,
+    "OAuth2 (FOR APPS)": 1,
+    "BASIC AUTHENTICATION (API ID AND API TOKEN)": 1,
+    "JWT (JSON WEB TOKEN)": 1,
+    "BASIC AUTHENTICATION (API Key AND SECRET)": 1,
+    "DIGEST AUTHENTICATION (FOR SIP TRUNKING)": 1,
+    "OAuth2 (VIA OPENID CONNECT)": 1,
+    "API Key (PRIVATE INTEGRATION TOKEN)": 1,
+    "OAUTH 2.0 (AUTHORIZATION CODE GRANT, CLIENT CREDENTIALS GRANT)": 1,
+    "OAuth2 (VIA AUTHORIZATION WINDOW AND USER ACCESS TOKENS)": 1,
+    "GRAPH API USER ACCESS TOKEN": 1,
+    "API Key (CONSUMER KEY AND CONSUMER SECRET)": 1,
+    "BASIC AUTH": 1,
+    "API Key (LONG-LIVED TOKENS FOR STORE API ACCOUNTS, APP API ACCOUNTS)": 1,
+    "SIGNED JWTS (FOR CUSTOMER LOGIN API, CURRENT CUSTOMER API)": 1,
+    "SHORT-LIVED TOKENS (FOR GRAPHQL STOREFRONT API)": 1,
+    "TOKEN-BASED AUTHENTICATION": 1,
+    "LOGIN CREDENTIALS": 1,
+    "API Key (PRIVATE AND PUBLIC TOKENS)": 1,
+    "WEBHOOK SIGNATURE (FOR VALIDATION)": 1,
+    "BASIC": 1,
+    "NONE (DOES NOT REQUIRE API KeyS OR LOGIN CREDENTIALS FOR THE SITES IT CHECKS; IT CONSTRUCTS EXPECTED PROFILE URLS AND OBSERVES RESPONSES). AN EXPERIMENTAL REST API EXISTS BUT IS NOT MAINTAINED AND REQUIRES LOCAL SETUP.": 1,
+    "JWT": 1,
+    "OAuth2 (INCLUDING PERSONAL ACCESS TOKENS FOR MANUAL AUTHENTICATION AND OAuth2 FOR PUBLIC INTEGRATIONS)": 1,
+    "JSON WEB TOKENS (JWT)": 1,
+    "NETLIFY IDENTITY": 1,
+    "BASIC HTTP AUTHENTICATION": 1,
+    "OAuth2 SERVICE ACCOUNTS": 1,
+    "API KeyS (HTTP DIGEST-BASED)": 1,
+    "MULTI-FACTOR AUTHENTICATION (SECURITY KEY/BIOMETRICS, OKTA VERIFY, AUTHENTICATOR APP, EMAIL)": 1,
+    "FEDERATED AUTHENTICATION (SAML 2.0)": 1,
+    "AWS IAM ROLE AUTHENTICATION": 1,
+    "LDAP": 1,
+    "OIDC": 1,
+    "X.509 CERTIFICATES": 1,
+    "SCRAM PASSWORD AUTHENTICATION": 1,
+    "API TOKEN (PERSONAL V2 API TOKENS, SHORT-LIVED API TOKENS)": 1,
+    "API Key (PERSONAL ACCESS TOKEN)": 1,
+    "API Key (CLIENT_ID AND SECRET)": 1,
+    "OAuth2 (FOR SPECIFIC FLOWS AND PARTNERS)": 1,
+    "PUBLIC_TOKEN/ACCESS_TOKEN EXCHANGE": 1,
+    "API Key (HMAC, RSA, ED25519)": 1,
+    "BEARER TOKEN (USING API Key)": 1,
+    "API Key (PB-TOKEN)": 1,
+    "GOOGLE CLOUD AUTHENTICATION (E.G., OAuth2, SERVICE ACCOUNTS) FOR THE OFFICIAL ENTERPRISE API": 1,
+    "COOKIE-BASED AUTHENTICATION FOR UNOFFICIAL COMMUNITY TOOLS": 1,
+    "API Key (BEARER TOKEN AUTHENTICATION)": 1,
+    "API Key OR TOKEN-BASED (INFERRED, AS IT'S A PROPRIETARY SAAS WITH SECURE CONNECTIONS)": 1,
+    "BROWSER-BASED (CLERK STYLE AUTHORIZATION) FOR CLI, API Key FOR BROADER INTEGRATIONS (E.G., ONE CLI), OR AUTHENTICATION THROUGH HIGGSFIELD ACCOUNT FOR MCP.": 1,
+    "NONE - LOCAL CLI TOOL, NO API/AUTH": 1
+  },
+  "self_serve_vs_gated": {
+    "Self-serve": 61,
+    "Unclear": 27,
+    "Gated": 12
+  },
+  "category_self_serve_vs_gated": {
+    "CRM and Sales": {
+      "Self-serve": 7,
+      "Unclear": 2,
+      "Gated": 1
+    },
+    "Support and Helpdesk": {
+      "Self-serve": 4,
+      "Unclear": 4,
+      "Gated": 2
+    },
+    "Communications and Messaging": {
+      "Self-serve": 9,
+      "Unclear": 1
+    },
+    "Marketing, Ads, Email and Social": {
+      "Self-serve": 4,
+      "Unclear": 4,
+      "Gated": 2
+    },
+    "Ecommerce": {
+      "Unclear": 2,
+      "Self-serve": 7,
+      "Gated": 1
+    },
+    "Data, SEO and Scraping": {
+      "Unclear": 5,
+      "Self-serve": 4,
+      "Gated": 1
+    },
+    "Developer, Infra and Data platforms": {
+      "Self-serve": 5,
+      "Unclear": 5
+    },
+    "Productivity and Project Management": {
+      "Self-serve": 8,
+      "Unclear": 1,
+      "Gated": 1
+    },
+    "Finance and Fintech": {
+      "Self-serve": 6,
+      "Unclear": 3,
+      "Gated": 1
+    },
+    "AI, Research and Media-native": {
+      "Self-serve": 7,
+      "Gated": 3
+    }
+  },
+  "buildability_verdict_summary": {
+    "Buildable today": 90,
+    "Partial / unclear": 9,
+    "Not buildable / blocked": 1
+  },
+  "common_blocker_keywords": {
+    "paid plan": 14,
+    "enterprise": 8,
+    "partner": 5,
+    "contact sales": 4,
+    "cli tool": 2,
+    "approval": 1
+  },
+  "auth_method_distribution_normalized": {
+    "OAuth2": 73,
+    "API Key": 69,
+    "Other / Proprietary": 15,
+    "Basic Auth": 7,
+    "JWT": 5,
+    "Bearer Token": 2,
+    "None (local/CLI tool)": 1
+  }
+}
